@@ -15,7 +15,7 @@
 #Ux and Uy are not supported by now.
 from g_cub import g_cub,G
 rho=1.0
-g=G*rho*g_cub(0.0,0.0,-10.0,1.0,2.0,1.0,2.0,1.0,2.0,'ux')
+g=G*rho*g_cub(0.0,0.0,-10.0,1.0,2.0,1.0,2.0,1.0,2.0,'uz')
 
 
 #compute the Uxx in point (0.0,0.0,-10.0)
