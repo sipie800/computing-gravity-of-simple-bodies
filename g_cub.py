@@ -4,7 +4,7 @@ G=6.672E-3
     
 sub=cdll.LoadLibrary(r'libgravity_forward.dll')
 g_=sub.gravity_cuboid
-g_.argtypes=[c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_int]#说明形参类型
+g_.argtypes=[c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_double,c_int]
 g_.restype=c_double
 
 from g_type import g_type
